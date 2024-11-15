@@ -11,6 +11,9 @@ importers:
       '@element-simple/components':
         specifier: workspace:*
         version: link:packages/components
+      '@element-simple/constants':
+        specifier: workspace:*
+        version: link:packages/constants
       '@element-simple/hooks':
         specifier: workspace:*
         version: link:packages/hooks
@@ -74,6 +77,8 @@ importers:
         version: 2.1.10(typescript@5.5.4)
 
   packages/components: {}
+
+  packages/constants: {}
 
   packages/element-simple:
     dependencies:

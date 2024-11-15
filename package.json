@@ -12,6 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "@element-simple/components": "workspace:*",
+    "@element-simple/constants": "workspace:*",
     "@element-simple/hooks": "workspace:*",
     "@element-simple/theme-chalk": "workspace:*",
     "@element-simple/utils": "workspace:*",
