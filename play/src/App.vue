@@ -1,6 +1,4 @@
-<script setup lang="ts">
-import { EsIcon } from '@element-simple/components'
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <header>element simple</header>
@@ -8,6 +6,8 @@ import { EsIcon } from '@element-simple/components'
   <main>
     hello world!
     <es-icon>111</es-icon>
+    <es-text> default</es-text>
+    <es-text type="primary" truncated> Self element set width 100px</es-text>
   </main>
 </template>
 
